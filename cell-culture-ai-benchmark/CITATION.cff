@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or benchmark, please cite the software release and the associated manuscript."
+title: "Cell-Culture AI Benchmark"
+type: software
+version: 1.0.0
+license: MIT
+authors:
+  - family-names: Paunova
+    given-names: Eva
+    affiliation: ArcentLabs
+    email: eva@arcentlabs.com
+repository-code: "https://github.com/arcentlabs/cell-culture-ai-benchmark"
+url: "https://github.com/arcentlabs/cell-culture-ai-benchmark"
+abstract: >-
+  Reproducible public-data benchmark for round-aware validation,
+  held-out prediction, non-compensatory biological ranking, and Pareto
+  analysis in AI-guided cell-culture media development.
+keywords:
+  - cell culture media
+  - Bayesian optimization
+  - active learning
+  - bioprocess
+  - round-aware validation
+  - Pareto optimization
+  - PBMC
+  - Komagataella phaffii
+preferred-citation:
+  type: article
+  title: "Round-Aware Validation and Constraint-Aware Ranking for AI-Guided Cell-Culture Media Development: A Public-Data Benchmark"
+  authors:
+    - family-names: Paunova
+      given-names: Eva
+      affiliation: ArcentLabs
+  year: 2026

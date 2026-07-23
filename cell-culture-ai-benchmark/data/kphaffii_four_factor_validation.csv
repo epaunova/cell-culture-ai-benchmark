@@ -1,0 +1,17 @@
+set,carbon_source,carbon_concentration_g_L,glycerol_pct,methanol_pct,specific_productivity_mg_L_OD600
+Validation,Mannose,30.00000001,4.0,3.0,0.143566097
+Validation,Pyruvate,30.00000001,4.0,3.0,2.047517023
+Validation,Sucrose,30.0,4.0,3.0,2.986985232
+Validation,Fructose,30.0,4.0,3.0,0.145922391
+Validation,Sorbitol,40.0,4.0,3.0,4.834149252
+Validation,Citrate,30.0,4.0,3.0,2.231668382
+Validation,Succinate,30.0,4.0,3.0,5.088493191
+Validation,Ribose,30.0,4.0,3.0,2.504185288
+Validation,Mannose,30.00000001,1.0,1.0,0.145077805
+Validation,Pyruvate,30.00000001,1.0,1.0,3.334039988
+Validation,Sucrose,30.0,1.0,1.0,4.617609559
+Validation,Fructose,30.0,1.0,1.0,0.160690386
+Validation,Sorbitol,40.0,1.0,1.0,6.893736676
+Validation,Citrate,30.0,1.0,1.0,3.597152611
+Validation,Succinate,30.0,1.0,1.0,6.206053523
+Validation,Ribose,30.0,1.0,1.0,5.652033232

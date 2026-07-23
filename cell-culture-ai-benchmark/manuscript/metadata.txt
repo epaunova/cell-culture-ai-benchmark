@@ -1,0 +1,33 @@
+TITLE
+Round-Aware Validation and Constraint-Aware Ranking for AI-Guided Cell-Culture Media Development: A Public-Data Benchmark
+
+AUTHORS
+Eva Paunova
+
+AFFILIATION
+ArcentLabs, Europe
+
+CORRESPONDING EMAIL
+eva@arcentlabs.com
+
+RECOMMENDED PREPRINT SUBJECT AREA
+Bioengineering
+Alternative: Bioinformatics or Systems Biology
+
+ARTICLE TYPE
+New Results / Research Article (secondary computational analysis of public data)
+
+ABSTRACT
+Artificial-intelligence-guided experimental design can reduce the number of wet-lab experiments required for cell-culture media development, yet evaluation practice has not kept pace with the sequential structure and multiple constraints of bioprocess optimization. Random cross-validation can mix observations acquired in later experimental rounds with earlier observations, producing estimates that are poorly aligned with prospective use. Furthermore, single-objective ranking can conceal unacceptable losses in viability, population balance, process burden, or product quality. We present a reproducible public-data benchmark that separates prediction from decision quality and evaluates models under three protocols: repeated random cross-validation, round-blocked validation, and forward-round prediction. We reanalyze openly released experiments spanning a four-component human peripheral-blood mononuclear-cell media blend (24 observations, four rounds), a four-factor Komagataella phaffii production task (86 observations, seven rounds plus 16 held-out validation conditions), and a nine-factor K. phaffii task (77 observations, seven rounds). Ridge regression, random forests, and extremely randomized trees are compared with a mean baseline. Protocol choice materially changes error estimates and, in some tasks, model ranking. For the PBMC blend, the best random-CV RMSE was 14.79 percentage points, increasing to 18.17 under round-blocked and 18.60 under forward-round evaluation. In the four-factor K. phaffii task, a ridge model achieved Spearman rho=0.75 on the 16 held-out conditions but negative R-squared, demonstrating useful ordering with weak absolute transfer. A non-compensatory homeostasis score independently recovers cytokine formulation 11 as the balanced PBMC candidate across a twofold tolerance sensitivity range. An illustrative Pareto analysis retains six efficient productivity–process-load trade-offs rather than a single optimum. The benchmark supports a practical standard: media-development models should be evaluated prospectively by experimental round, report ranking and calibration separately from point error, and preserve hard biological and process constraints during candidate selection.
+
+KEYWORDS
+cell-culture media; active learning; Bayesian optimization; bioprocess development; round-aware validation; multi-objective optimization; uncertainty; PBMC; Komagataella phaffii
+
+FUNDING
+No external funding.
+
+COMPETING INTERESTS
+Eva Paunova is the founder of ArcentLabs. No commercial product, proprietary medium, or paid service was evaluated in this study.
+
+DATA STATEMENT
+All analyses use public source data from Narayanan et al., Nature Communications (2025), DOI 10.1038/s41467-025-61113-5. Derivative CSV files and deterministic analysis code are included in the reproducibility package.
