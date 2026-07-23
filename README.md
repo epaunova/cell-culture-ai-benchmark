@@ -1,4 +1,6 @@
 # Cell-Culture AI Benchmark
+[![DOI](https://zenodo.org/badge/1309680608.svg)](https://doi.org/10.5281/zenodo.21506133)
+
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-green.svg)](LICENSE)
